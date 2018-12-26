@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+.wallpaper{
+	background-image: url('../img/banner.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+
+#index-banner h1, #index-banner h5{
+	text-shadow: 3px 3px rgba(100,100,100,.5);
+}
+
+h2{
+	text-align: center;
+	text-shadow: 3px 3px rgba(100,100,100,.5);
+}
+
+.post{
+	height: 250px;
+	font-size: 16px;
+}
+
+.new{
+	padding: 0 !important;
+}
+
+.new img{
+	height: 250px;
+	width: 100%;
+}
+
+.text-new{
+	padding: 15px;
+}
+
+.contact{
+	margin: 0 auto;
+}
+
+.contact form{
+	padding: 25px 25px;
+}
+
+.button{
+	text-align: center !important;
+	margin: 0 auto;
+}
+
+.contact ul li{
+	text-align: center;
+	display: inline-block;
+	margin: 10px 10px 15px;
+	padding: 25px 25px;
+	border-radius: 50%;
+	background-color: #9c27b0;
+}
+
+.contact ul li a{
+	color: #fff;
+}
+
+.contact a:hover .fa{
+	color: #2196F3;
+	transition: all ease 0.5s;
+}
+
+@media screen and (max-width: 1024px){
+	.fixed{
+		position: relative;
+	}
+
+	.new{
+		height: 100%;
+		min-height: 250px;
+		max-height: 700px;
+	}
+
+	.post{
+		height: 100%;
+		min-height: 250px;
+		max-height: 650px;
+	}
+}
